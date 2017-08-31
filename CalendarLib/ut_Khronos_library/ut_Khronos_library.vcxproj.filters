@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ut_">
+      <UniqueIdentifier>{6360ed93-f5bf-4197-9af8-97f797678354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libsrc_">
+      <UniqueIdentifier>{eb5e261e-ad49-443f-b319-34ef44c60de2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ut_\ut_Khronos_00_main.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_utilities.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\gregorian.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\gregorian_conv.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\julian_day.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_01_concepts.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_02_gregorian_concepts.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_03_gregorian_to_jd.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_04_jd_to_gregorian.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_05_gregorian_conv_full.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_06_jd_class.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_07_gregorian_class.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_08_day_of_the_weeki.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_09_julian_concepts.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_10_julian_conv.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_11_julian_class.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\julian.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\julian_conv.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_12_mixed_classes.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\islamic.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="libsrc_\hebrew.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_13_islamic_concepts.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_14_islamic_conv.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_15_islamic_class.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="islamic_conv.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_16_hebrew_concepts.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_17_hebrew_conv.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_\ut_Khronos_18_hebrew_class.cpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClCompile>
+    <ClCompile Include="hebrew_conv.cpp">
+      <Filter>Source Files\libsrc_</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ut_\ut_utilities.hpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClInclude>
+    <ClInclude Include="ut_\ut_phase_list.hpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClInclude>
+    <ClInclude Include="ut_\ut_test_phase.hpp">
+      <Filter>Source Files\ut_</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\def.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\gregorian_calendar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\julian_day.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\julian_calendar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\islamic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_\khronos\hebrew.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
